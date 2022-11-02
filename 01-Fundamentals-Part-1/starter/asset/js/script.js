@@ -138,9 +138,69 @@ if (population > 33) {
 }
 
 const inputYear = "1991";
-console.log(Number(inputYear), inputYear)
+console.log(Number(inputYear), inputYear);
 console.log(inputYear + 18);
 
-console.log(Number('Jonas')) //NaN means not a number
+console.log(Number("Jonas")); //NaN means not a number
 
-console.log(String(23))
+console.log(String(23));
+
+console.log("9" - "5");
+console.log("19" - "13" + "17"); // why is this 617?
+console.log("19" - "13" + 17); //no it's showing the correct value 23
+console.log("123" < 57); //shows false falue no matter if 123 is a string or not
+console.log(5 + 6 + "4" + 9 - 4 - 2); //18 if four is just regular number but 1143 if four is a string
+
+const money = 100;
+if (money) {
+  console.log("Don't spend it all ;)");
+} else {
+  console.log("you should get a job!");
+}
+
+let height = 123;
+if (height) {
+  console.log("hieght defined");
+} else {
+  console.log("Height is UNDEFINED");
+}
+
+// if (0 === undefined) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+
+//LECTURE: Equality Operators: == vs. ===
+
+// declare variable 'numNieghbors'
+let numNeighbours = prompt("How many neighbor countries does your country have?");
+ 
+// console.log(typeof numNeighbours)
+// console.log(typeof )
+// console.log('1' === 1)
+// if there is only one neighbour log into the console 'Only 1 border' (use loose equality == for now)
+if (Number(numNeighbours) === 1) {  
+  console.log("Only 1 border");
+}
+// // Use an else-if block to log 'More than 1 border' in case 'numNeighbours' is greater than one
+else if (Number(numNeighbours) > 1) {
+  console.log("More than 1 border");
+}
+// // Use an else block to log 'No Borders' (this block will be executed when 'numNieghbours' is 0 or any other value)
+else {
+  console.log("No Borders")
+}
+//√√ Test the code with different values of 'numNieghbors', including 1 and 0. 
+
+//√√ Change == to ===, and test the code again, with the same values of 'numNeighbors'. Notice what happens when there is exactly 1 border! Why is this happening? I got no border, I wonder, why? Because numNeighbours is typeof string. Due to strict equality 1 does not equal '1'. So the code takes it as undefined? So it goes to the last conditional statement
+
+// Finally, convert 'numNeighbours' to a number, and watch what happens now when you input 1
+  //It's not doing it for me
+  //It's still not working for me...
+  //I get "no borders" should be "only 1 border"
+
+// Reflect on why we should use the === operator and type conversion in this situation
+// To avoid a bug
+
+// LECTURE: Logical Operators
