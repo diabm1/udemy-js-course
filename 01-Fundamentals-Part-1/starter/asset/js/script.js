@@ -73,24 +73,24 @@ const johnHeight = 1.95;
 const markBMI = markMass / markHeight ** 2;
 const johnBMI = johnMass / (johnHeight * johnHeight);
 const markHigherBMI = markBMI > johnBMI;
-console.log(markHigherBMI);
+// console.log(markHigherBMI);
 
 //why isn't this outputting?
-if (markHigherBMI) {
-  console.log(
-    `Mark's BMI (${Math.round(markBMI)}) is higher than John's (${Math.round(
-      johnBMI
-    )})!`
-  );
-} else {
-  console.log(
-    `John's BMI (${Math.round(johnBMI)}) is higher than Mark's (${Math.round(
-      markBMI
-    )})!`
-  );
-}
+// if (markHigherBMI) {
+//   console.log(
+//     `Mark's BMI (${Math.round(markBMI)}) is higher than John's (${Math.round(
+//       johnBMI
+//     )})!`
+//   );
+// } else {
+//   console.log(
+//     `John's BMI (${Math.round(johnBMI)}) is higher than Mark's (${Math.round(
+//       markBMI
+//     )})!`
+//   );
+// }
 
-console.log(markBMI, johnBMI, markHigherBMI);
+// console.log(markBMI, johnBMI, markHigherBMI);
 
 const firstName = "Jonas";
 const job = "teacher";
@@ -100,70 +100,70 @@ const year = 2037;
 const jonas =
   "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
 
-console.log(jonas);
+// console.log(jonas);
 
 const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
-console.log(jonasNew);
+// console.log(jonasNew);
 
 let language = "english";
 let description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
-console.log(description);
+// console.log(description);
 
 const age = 14;
 const isOldEnough = age >= 18;
 
-if (isOldEnough) {
-  console.log("Sarah can start driving license 🪪");
-} else {
-  const yearsLeft = 18 - age;
-  console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
-}
+// if (isOldEnough) {
+//   console.log("Sarah can start driving license 🪪");
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+// }
 
 let century;
 // const birthYear = 1991;
-if (birthYear <= 2000) {
-  century = 20;
-} else {
-  let century = 21;
-}
+// if (birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   let century = 21;
+// }
 
-console.log(century);
+// console.log(century);
 
-if (population > 33) {
-  console.log(`${country}'s population is above average`);
-} else {
-  console.log(
-    `${country}'s population is ${33 - population} million below average`
-  );
-}
+// if (population > 33) {
+//   console.log(`${country}'s population is above average`);
+// } else {
+//   console.log(
+//     `${country}'s population is ${33 - population} million below average`
+//   );
+// }
 
 const inputYear = "1991";
-console.log(Number(inputYear), inputYear);
-console.log(inputYear + 18);
+// console.log(Number(inputYear), inputYear);
+// console.log(inputYear + 18);
 
-console.log(Number("Jonas")); //NaN means not a number
+// console.log(Number("Jonas")); //NaN means not a number
 
-console.log(String(23));
+// console.log(String(23));
 
-console.log("9" - "5");
-console.log("19" - "13" + "17"); // why is this 617?
-console.log("19" - "13" + 17); //no it's showing the correct value 23
-console.log("123" < 57); //shows false falue no matter if 123 is a string or not
-console.log(5 + 6 + "4" + 9 - 4 - 2); //18 if four is just regular number but 1143 if four is a string
+// console.log("9" - "5");
+// console.log("19" - "13" + "17"); // why is this 617?
+// console.log("19" - "13" + 17); //no it's showing the correct value 23
+// console.log("123" < 57); //shows false falue no matter if 123 is a string or not
+// console.log(5 + 6 + "4" + 9 - 4 - 2); //18 if four is just regular number but 1143 if four is a string
 
-const money = 100;
-if (money) {
-  console.log("Don't spend it all ;)");
-} else {
-  console.log("you should get a job!");
-}
+// const money = 100;
+// if (money) {
+//   console.log("Don't spend it all ;)");
+// } else {
+//   console.log("you should get a job!");
+// }
 
-let height = 123;
-if (height) {
-  console.log("hieght defined");
-} else {
-  console.log("Height is UNDEFINED");
-}
+// let height = 123;
+// if (height) {
+//   console.log("hieght defined");
+// } else {
+//   console.log("Height is UNDEFINED");
+// }
 
 // if (0 === undefined) {
 //   console.log(true);
@@ -174,23 +174,23 @@ if (height) {
 //LECTURE: Equality Operators: == vs. ===
 
 // declare variable 'numNieghbors'
-let numNeighbours = prompt("How many neighbor countries does your country have?");
+// let numNeighbours = prompt("How many neighbor countries does your country have?");
  
 // console.log(typeof numNeighbours)
 // console.log(typeof )
 // console.log('1' === 1)
 // if there is only one neighbour log into the console 'Only 1 border' (use loose equality == for now)
-if (Number(numNeighbours) === 1) {  
-  console.log("Only 1 border");
-}
+// if (Number(numNeighbours) === 1) {  
+//   console.log("Only 1 border");
+// }
 // // Use an else-if block to log 'More than 1 border' in case 'numNeighbours' is greater than one
-else if (Number(numNeighbours) > 1) {
-  console.log("More than 1 border");
-}
+// else if (Number(numNeighbours) > 1) {
+//   console.log("More than 1 border");
+// }
 // // Use an else block to log 'No Borders' (this block will be executed when 'numNieghbours' is 0 or any other value)
-else {
-  console.log("No Borders")
-}
+// else {
+//   console.log("No Borders")
+// }
 //√√ Test the code with different values of 'numNieghbors', including 1 and 0. 
 
 //√√ Change == to ===, and test the code again, with the same values of 'numNeighbors'. Notice what happens when there is exactly 1 border! Why is this happening? I got no border, I wonder, why? Because numNeighbours is typeof string. Due to strict equality 1 does not equal '1'. So the code takes it as undefined? So it goes to the last conditional statement
@@ -204,3 +204,19 @@ else {
 // To avoid a bug
 
 // LECTURE: Logical Operators
+//√√ 1. Comment out the previous code so the prompt doesn't get in the way
+
+// 2. Let's say Sarah is looking for a new country to live in. She wants to live in a
+// country that speaks english, has less than 50 million people and is not an
+// island.
+
+// 3. Write an if statement to help Sarah figure out if your country is right for her.
+// You will need to write a condition that accounts for all of Sarah's criteria. Take
+// your time with this, and check part of the solution if necessary.
+
+// 4. If yours is the right country, log a string like this: 'You should live in Portugal :)'. If
+// not, log 'Portugal does not meet your criteria :('
+
+// 5. Probably your country does not meet all the criteria. So go back and temporarily
+// change some variables in order to make the condition true (unless you live in
+// Canada :D)
