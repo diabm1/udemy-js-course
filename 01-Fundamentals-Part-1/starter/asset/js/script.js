@@ -9,9 +9,9 @@
 // console.log(firstName);
 // console.log(firstName);
 
-const country = "USA";
-const continent = "North America";
-let population = 331900000;
+// const country = "USA";
+// const continent = "North America";
+// let population = 331900000;
 // let population = 130
 // let populationDivided = population / 2;
 
@@ -37,7 +37,7 @@ let population = 331900000;
 // console.log(population);
 
 // let isIsland = "USA";
-// isIsland = true;
+isIsland = true;
 
 // console.log(typeof isIsland)
 // console.log(typeof population)
@@ -59,20 +59,20 @@ TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1
 */
 
 //Marks
-const markMass = 78;
-const markHeight = 1.69;
+// const markMass = 78;
+// const markHeight = 1.69;
 // const markMass = 95;
 // const markHeight = 1.88;
 
 //John
-const johnMass = 92;
-const johnHeight = 1.95;
+// const johnMass = 92;
+// const johnHeight = 1.95;
 // const johnMass = 85;
 // const johnHeight = 1.76;
 
-const markBMI = markMass / markHeight ** 2;
-const johnBMI = johnMass / (johnHeight * johnHeight);
-const markHigherBMI = markBMI > johnBMI;
+// const markBMI = markMass / markHeight ** 2;
+// const johnBMI = johnMass / (johnHeight * johnHeight);
+// const markHigherBMI = markBMI > johnBMI;
 // console.log(markHigherBMI);
 
 //why isn't this outputting?
@@ -92,25 +92,25 @@ const markHigherBMI = markBMI > johnBMI;
 
 // console.log(markBMI, johnBMI, markHigherBMI);
 
-const firstName = "Jonas";
-const job = "teacher";
-const birthYear = 1991;
-const year = 2037;
+// const firstName = "Jonas";
+// const job = "teacher";
+// const birthYear = 1991;
+// const year = 2037;
 
-const jonas =
-  "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
+// const jonas =
+//   "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
 
 // console.log(jonas);
 
-const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+// const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
 // console.log(jonasNew);
 
-let language = "english";
-let description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
+// let language = "english";
+// let description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
 // console.log(description);
 
-const age = 14;
-const isOldEnough = age >= 18;
+// const age = 14;
+// const isOldEnough = age >= 18;
 
 // if (isOldEnough) {
 //   console.log("Sarah can start driving license 🪪");
@@ -119,7 +119,7 @@ const isOldEnough = age >= 18;
 //   console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
 // }
 
-let century;
+// let century;
 // const birthYear = 1991;
 // if (birthYear <= 2000) {
 //   century = 20;
@@ -137,7 +137,7 @@ let century;
 //   );
 // }
 
-const inputYear = "1991";
+// const inputYear = "1991";
 // console.log(Number(inputYear), inputYear);
 // console.log(inputYear + 18);
 
@@ -203,6 +203,9 @@ const inputYear = "1991";
 // Reflect on why we should use the === operator and type conversion in this situation
 // To avoid a bug
 
+
+
+
 // LECTURE: Logical Operators
 //√√ 1. Comment out the previous code so the prompt doesn't get in the way
 
@@ -220,3 +223,15 @@ const inputYear = "1991";
 // 5. Probably your country does not meet all the criteria. So go back and temporarily
 // change some variables in order to make the condition true (unless you live in
 // Canada :D)
+
+const hasDriverLicense = true;
+const hasGoodVision = true;
+
+// const shouldDrive = 
+
+// let population;
+
+
+// if(population < 50000000){
+
+// }
