@@ -227,6 +227,19 @@ TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1
 const hasDriverLicense = true;
 const hasGoodVision = true;
 
+console.log(hasDriverLicense && hasGoodVision)
+console.log(hasDriverLicense || hasGoodVision)
+
+const shouldDrive = hasDriverLicense && hasGoodVision;
+if(shouldDrive) {
+  console.log('Sarah is able to drive!')
+} else {
+  console.log('Someone else should drive...')
+}
+
+
+
+
 // const shouldDrive = 
 
 // let population;
