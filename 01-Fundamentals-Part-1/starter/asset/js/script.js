@@ -175,12 +175,12 @@ TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1
 
 // declare variable 'numNieghbors'
 // let numNeighbours = prompt("How many neighbor countries does your country have?");
- 
+
 // console.log(typeof numNeighbours)
 // console.log(typeof )
 // console.log('1' === 1)
 // if there is only one neighbour log into the console 'Only 1 border' (use loose equality == for now)
-// if (Number(numNeighbours) === 1) {  
+// if (Number(numNeighbours) === 1) {
 //   console.log("Only 1 border");
 // }
 // // Use an else-if block to log 'More than 1 border' in case 'numNeighbours' is greater than one
@@ -191,20 +191,17 @@ TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1
 // else {
 //   console.log("No Borders")
 // }
-//√√ Test the code with different values of 'numNieghbors', including 1 and 0. 
+//√√ Test the code with different values of 'numNieghbors', including 1 and 0.
 
 //√√ Change == to ===, and test the code again, with the same values of 'numNeighbors'. Notice what happens when there is exactly 1 border! Why is this happening? I got no border, I wonder, why? Because numNeighbours is typeof string. Due to strict equality 1 does not equal '1'. So the code takes it as undefined? So it goes to the last conditional statement
 
 // Finally, convert 'numNeighbours' to a number, and watch what happens now when you input 1
-  //It's not doing it for me
-  //It's still not working for me...
-  //I get "no borders" should be "only 1 border"
+//It's not doing it for me
+//It's still not working for me...
+//I get "no borders" should be "only 1 border"
 
 // Reflect on why we should use the === operator and type conversion in this situation
 // To avoid a bug
-
-
-
 
 // LECTURE: Logical Operators
 //√√ 1. Comment out the previous code so the prompt doesn't get in the way
@@ -227,23 +224,23 @@ TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1
 const hasDriverLicense = true;
 const hasGoodVision = true;
 
-console.log(hasDriverLicense && hasGoodVision)
-console.log(hasDriverLicense || hasGoodVision)
+console.log(hasDriverLicense && hasGoodVision);
+console.log(hasDriverLicense || hasGoodVision);
+console.log(!hasDriverLicense);
 
 const shouldDrive = hasDriverLicense && hasGoodVision;
-if(shouldDrive) {
-  console.log('Sarah is able to drive!')
+if (shouldDrive) {
+  console.log("Sarah is able to drive!");
 } else {
-  console.log('Someone else should drive...')
+  console.log("Someone else should drive...");
 }
 
+const isTired = true;
+console.log(hasDriverLicense || hasGoodVision || isTired);
 
-
-
-// const shouldDrive = 
+// const shouldDrive =
 
 // let population;
-
 
 // if(population < 50000000){
 
