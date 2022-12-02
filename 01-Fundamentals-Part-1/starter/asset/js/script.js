@@ -9,10 +9,10 @@
 // console.log(firstName);
 // console.log(firstName);
 
-// const country = "USA";
+const country = "USA";
 // const continent = "North America";
 // let population = 331900000;
-// let population = 130
+let population = 49;
 // let populationDivided = population / 2;
 
 // console.log(populationDivided / 2);
@@ -37,7 +37,7 @@
 // console.log(population);
 
 // let isIsland = "USA";
-isIsland = true;
+isIsland = false;
 
 // console.log(typeof isIsland)
 // console.log(typeof population)
@@ -105,7 +105,7 @@ TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1
 // const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
 // console.log(jonasNew);
 
-// let language = "english";
+let language = "english";
 // let description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
 // console.log(description);
 
@@ -224,19 +224,25 @@ TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1
 const hasDriverLicense = true;
 const hasGoodVision = true;
 
-console.log(hasDriverLicense && hasGoodVision);
-console.log(hasDriverLicense || hasGoodVision);
-console.log(!hasDriverLicense);
+// console.log(hasDriverLicense && hasGoodVision);
+// console.log(hasDriverLicense || hasGoodVision);
+// console.log(!hasDriverLicense);
 
 const shouldDrive = hasDriverLicense && hasGoodVision;
-if (shouldDrive) {
-  console.log("Sarah is able to drive!");
-} else {
-  console.log("Someone else should drive...");
-}
+// if (shouldDrive) {
+//   console.log("Sarah is able to drive!");
+// } else {
+//   console.log("Someone else should drive...");
+// }
 
 const isTired = true;
-console.log(hasDriverLicense || hasGoodVision || isTired);
+// console.log(hasDriverLicense && hasGoodVision && isTired);
+
+// if(hasDriverLicense && hasGoodVision && !isTired) {
+//   console.log('Sarah is able to drive!')
+// } else {
+//   console.log('Someone else should drive...')
+// }
 
 // const shouldDrive =
 
@@ -245,3 +251,40 @@ console.log(hasDriverLicense || hasGoodVision || isTired);
 // if(population < 50000000){
 
 // }
+
+if (language === "english" && population < 50 && !isIsland) {
+  console.log(`You should live in ${country} :)`);
+} else {
+  console.log(`${country} does not meet your criteria :(`);
+}
+
+//Challenge #3
+
+//TEST DATA: Dolphins score 96, 108, and 89. Koalas score 88, 91, 110
+
+// Test Case
+// Description: Find average of score for each team
+// Step 1) cycle through each number
+// EXPECTATION:
+// ACTUAL:
+
+// Step 2) each single iteration store number into a variable
+// EXPECTATION:
+// ACTUAL:
+
+// Step 3) add each number to the one before it into the variable
+// EXPECTATION:
+// ACTUAL:
+
+const Dolphins = [96, 108, 89];
+
+let total = 0;
+
+for (let i = 0; i < Dolphins.length; i++) {
+  const element = Dolphins[i];
+  // console.log(element)
+
+  total += element
+
+  console.log(total)
+}
