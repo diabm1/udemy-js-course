@@ -281,15 +281,28 @@ if (language === "english" && population < 50 && !isIsland) {
 // with the highest average score wins the trophy!
 
 const Dolphins = [96, 108, 89];
+const Koalas = [88, 91, 110];
 
 let total = 0;
+let total2 = 0;
 
 for (let i = 0; i < Dolphins.length; i++) {
   const element = Dolphins[i];
+  const element2 = Koalas[i];
   // console.log(element)
   // to find average add numbers up and then divide by total number
+  total += element;
+  total2 += element2;
 
-  total += element
-
-  console.log(total)
+  
 }
+if (total > total2) {
+  console.log("Dolphins win!!!");
+} else if (total < total2) {
+  console.log("Koalas win!!!");
+} else if(total === total2) {
+  console.log("Draw!")
+}
+
+console.log(total);
+console.log(total2);
