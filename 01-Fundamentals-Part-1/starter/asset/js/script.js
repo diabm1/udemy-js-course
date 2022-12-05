@@ -276,6 +276,10 @@ if (language === "english" && population < 50 && !isIsland) {
 // EXPECTATION:
 // ACTUAL:
 
+// There are two gymnastics teams, Dolphins and Koalas.
+// They compete against each other 3 times. The winner
+// with the highest average score wins the trophy!
+
 const Dolphins = [96, 108, 89];
 
 let total = 0;
@@ -283,6 +287,7 @@ let total = 0;
 for (let i = 0; i < Dolphins.length; i++) {
   const element = Dolphins[i];
   // console.log(element)
+  // to find average add numbers up and then divide by total number
 
   total += element
 
