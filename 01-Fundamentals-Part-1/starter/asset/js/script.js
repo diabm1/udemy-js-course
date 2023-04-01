@@ -280,29 +280,44 @@ if (language === "english" && population < 50 && !isIsland) {
 // They compete against each other 3 times. The winner
 // with the highest average score wins the trophy!
 
-const Dolphins = [96, 108, 89];
-const Koalas = [88, 91, 110];
+// const Dolphins = [96, 108, 89];
+// const Koalas = [88, 91, 110];
 
-let total = 0;
-let total2 = 0;
+// let total = 0;
+// let total2 = 0;
 
-for (let i = 0; i < Dolphins.length; i++) {
-  const element = Dolphins[i];
-  const element2 = Koalas[i];
-  // console.log(element)
-  // to find average add numbers up and then divide by total number
-  total += element;
-  total2 += element2;
+// for (let i = 0; i < Dolphins.length; i++) {
+//   const element = Dolphins[i];
+//   const element2 = Koalas[i];
+//   // console.log(element)
+//   // to find average add numbers up and then divide by total number
+//   total += element;
+//   total2 += element2;
 
-  
-}
-if (total > total2) {
-  console.log("Dolphins win!!!");
-} else if (total < total2) {
-  console.log("Koalas win!!!");
-} else if(total === total2) {
-  console.log("Draw!")
-}
+// }
+// if (total > total2) {
+//   console.log("Dolphins win!!!");
+// } else if (total < total2) {
+//   console.log("Koalas win!!!");
+// } else if(total === total2) {
+//   console.log("Draw!")
+// }
 
-console.log(total);
-console.log(total2);
+// console.log(total);
+// console.log(total2);
+
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (96 + 108 + 89) / 3;
+
+// console.log(scoreDolphins, scoreKoalas);
+
+// if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+//   console.log("Dolphins win the trophy!");
+// } else if (scoreKoalas > scoreDolphins && scoreDolphins >= 100) {
+//   console.log("Koalas win the trophy!");
+// } else if (scoreDolphins === scoreKoalas) {
+//   console.log("Both win trophy!");
+// } else {
+//   console.log("No one wins the trophy :(")
+// }
+
